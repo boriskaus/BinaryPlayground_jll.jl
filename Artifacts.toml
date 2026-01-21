@@ -7,6 +7,108 @@ os = "macos"
     sha256 = "556f75b3792b1b331a8305407ca39cd13ccccc4a609673428884685a9e014851"
     url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.aarch64-apple-darwin.tar.gz"
 [[BinaryPlayground]]
+arch = "aarch64"
+git-tree-sha1 = "c6d44ccc21bb61f43cfa1a5e898d86c7d982d034"
+libc = "glibc"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "e8449ba804fc44db9ad6957588f5302f3349cb2458b9af7c918eab7352a54f2b"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.aarch64-linux-gnu.tar.gz"
+[[BinaryPlayground]]
+arch = "aarch64"
+git-tree-sha1 = "0908309e02ebb71c8c131d213a01958679e95c37"
+libc = "musl"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "69f686bc12f3290093b3347598fdf602a84900b9f82ed38fa4cd5d100ad378b8"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.aarch64-linux-musl.tar.gz"
+[[BinaryPlayground]]
+arch = "aarch64"
+git-tree-sha1 = "f3a00dbfcf314c7dc7cad9716c68447a48e79f2c"
+os = "freebsd"
+
+    [[BinaryPlayground.download]]
+    sha256 = "0fb647d6a51a8a03ae0678fadd9ab5a7f3693dcb56bc926b05082048f447766c"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.aarch64-unknown-freebsd.tar.gz"
+[[BinaryPlayground]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "301767efb8f41ff34dcf154fb4a306c04fd80954"
+libc = "glibc"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "42ef20958fc47fadbab107e78fda73d5688e8d3b828923603d13e3ba6d357f68"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.armv6l-linux-gnueabihf.tar.gz"
+[[BinaryPlayground]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "04186c60442cf18e2595bba167cbb57dce2b1a5a"
+libc = "musl"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "e8c380559bf2e95fa3a315b789c9bd2d438bfd11d1f124fe3c5b69759e5406ea"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.armv6l-linux-musleabihf.tar.gz"
+[[BinaryPlayground]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f43b97e7295ffb26b50d6dbb11ab424683b8f6c0"
+libc = "glibc"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "dc1b8e2acc2f8fa80547dcb696d5dc9be99d8ca618fe33f5c7881e8db41cdda4"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.armv7l-linux-gnueabihf.tar.gz"
+[[BinaryPlayground]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5ff1fcce09ad3328d30557080fed228e3ca81147"
+libc = "musl"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "b213b5eab0a23c8fd7e81d8356168a7cd3511db2dd405d47387f016e92a70213"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.armv7l-linux-musleabihf.tar.gz"
+[[BinaryPlayground]]
+arch = "i686"
+git-tree-sha1 = "96a701a92cbe66766530f09f4a034d476061cf4b"
+libc = "glibc"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "830d0aa61126ec579c5ac1d9950f392748ec1b3e6469bd61d86b1088a80bbf30"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.i686-linux-gnu.tar.gz"
+[[BinaryPlayground]]
+arch = "i686"
+git-tree-sha1 = "2fa95a2609371f99d6a4e985c077a80e539ea318"
+libc = "musl"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "3f04fab2502eff1a486359d8a7fbf1c85abdee4470ba584eeb8c7856e85de098"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.i686-linux-musl.tar.gz"
+[[BinaryPlayground]]
+arch = "powerpc64le"
+git-tree-sha1 = "357b65cdaf71948dad4b7aaad3637fdef890985b"
+libc = "glibc"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "8688cd88f46aa0e22f03f25052ac5039e913d6ca4d5147c4252c7b9a4e33f662"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.powerpc64le-linux-gnu.tar.gz"
+[[BinaryPlayground]]
+arch = "riscv64"
+git-tree-sha1 = "7a3b939b1195100612ca0d883c547eb51b61702f"
+libc = "glibc"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "24cb7d48fcff687d7c60d3803b1af7caa791f2c59fefadb151d1dc3408bcfcb3"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.riscv64-linux-gnu.tar.gz"
+[[BinaryPlayground]]
 arch = "x86_64"
 git-tree-sha1 = "9b4346070c27a10c5aaf866891c6c839edb7a96a"
 os = "macos"
@@ -23,3 +125,20 @@ os = "linux"
     [[BinaryPlayground.download]]
     sha256 = "9fa58de1416a95bf8c68c2ba868125236b74ade25185acd7aa16b5f4460e4a36"
     url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.x86_64-linux-gnu.tar.gz"
+[[BinaryPlayground]]
+arch = "x86_64"
+git-tree-sha1 = "9728d4918d495c1e73f4d027e6ed55db7e05aa30"
+libc = "musl"
+os = "linux"
+
+    [[BinaryPlayground.download]]
+    sha256 = "de9085e09cb683df0886393c2636ad993e2ed2e0cf9a6ebeddca22488974f0f4"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.x86_64-linux-musl.tar.gz"
+[[BinaryPlayground]]
+arch = "x86_64"
+git-tree-sha1 = "6e055a49cc6f6fd63b9fc4a53828c0762cc83e33"
+os = "freebsd"
+
+    [[BinaryPlayground.download]]
+    sha256 = "b6de9e55d973444008570d558b877ac38aa847d38c9d1ce6cbbffeab2579445d"
+    url = "https://github.com/boriskaus/BinaryPlayground_jll.jl/releases/download/BinaryPlayground-v0.1.0+0/BinaryPlayground.v0.1.0.x86_64-unknown-freebsd.tar.gz"
